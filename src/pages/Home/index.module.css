@@ -1,0 +1,275 @@
+.imgBanner {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Category */
+
+.categorys {
+    display: flex;
+    justify-content: center;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.Category {
+    padding: 8px;
+}
+
+.cate1s,
+.cate2s,
+.cate3s,
+.cate4s {
+    position: relative;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.cateInfo1,
+.cateInfo2,
+.cateInfo3,
+.cateInfo4 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.cate1,
+.cate2,
+.cate3,
+.cate4 {
+    width: 100%;
+    transition: linear 0.2s;
+}
+
+.cate1:hover,
+.cate2:hover,
+.cate3:hover,
+.cate4:hover {
+    transform: scale(1.03);
+}
+
+.Informations {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Information {
+    width: 30%;
+}
+
+.Information:nth-child(2) {
+    padding: 0 12px;
+}
+
+.img {
+    width: 100%;
+    /* height: 54%; */
+    margin-bottom: 22px;
+    max-height: 430px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.time,
+.textDetail {
+    color: #737673;
+    font-size: 14px;
+}
+
+.time {
+    margin-bottom: 18px;
+}
+
+/* logoo */
+
+.logos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.TextCenter {
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+@media screen and (max-width: 1285.6px) {
+    .img {
+        max-height: 360px;
+    }
+}
+
+/* responsive */
+/* nest hub max */
+@media screen and (max-width: 1280px) {
+    .categorys {
+        margin: 0 12%;
+    }
+}
+
+/* surface pro 7 */
+@media screen and (max-width: 900px) {
+    .Informations {
+        margin: 0 52px 28px;
+    }
+    .text {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .time,
+    .textDetail {
+        color: #737673;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .text {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .time,
+    .textDetail {
+        color: #737673;
+        font-size: 10px;
+    }
+    .logos {
+        display: none;
+    }
+    .Informations {
+        display: block;
+        margin: 0 auto;
+    }
+    .Information:nth-child(2) {
+        padding: 0;
+    }
+    .img {
+        width: auto;
+    }
+    .Information {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .text {
+        font-size: 18px;
+    }
+    .time,
+    .textDetail {
+        font-size: 14px;
+    }
+    .textDetail {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .cateInfo1,
+    .cateInfo2,
+    .cateInfo3,
+    .cateInfo4 {
+        font-size: 8px;
+    }
+    .text {
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    /* .time,
+    .textDetail {
+        color: #737673;
+        font-size: 9px;
+    } */
+}
+@media screen and (max-width: 620px) {
+    .Information {
+        width: 100%;
+    }
+
+    .text {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    /* .time,
+    .textDetail {
+        color: #737673;
+        font-size: 11px;
+    } */
+
+    .textDetail {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .TextCenter {
+        text-align: center;
+        padding: 40px 0 20px;
+        font-size: 18px;
+    }
+}
+/* iphone 12 */
+@media screen and (max-width: 472px) {
+    .TextCenter {
+        text-align: center;
+        padding: 40px 0 20px;
+        font-size: 16px;
+    }
+    .cateInfo1,
+    .cateInfo2,
+    .cateInfo3,
+    .cateInfo4 {
+        font-size: 4px;
+    }
+
+    .text {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .time,
+    .textDetail {
+        color: #737673;
+        font-size: 10px;
+    }
+
+    .logo {
+        padding: 0 12px;
+        cursor: pointer;
+        width: 20%;
+    }
+    .Informations {
+        max-width: 320px;
+    }
+    .Information {
+        max-width: 320px;
+    }
+    .img {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .cateInfo1,
+    .cateInfo2,
+    .cateInfo3,
+    .cateInfo4 {
+        display: none;
+    }
+}

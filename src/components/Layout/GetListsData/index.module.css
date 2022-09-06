@@ -1,0 +1,202 @@
+.listItem {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.itemItem {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 248px;
+    height: 44px;
+}
+/*  */
+
+.lists {
+    overflow: hidden;
+    max-width: 1190px;
+    margin: 12px auto;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.item {
+    cursor: pointer;
+    width: 24%;
+    transition: linear 0.2s;
+    text-decoration: none;
+    color: #333;
+    margin: 0 4px;
+}
+
+.product:hover {
+    box-shadow: 1px 0px 16px #ccc;
+    opacity: 0.68;
+}
+
+.img {
+    width: 100%;
+}
+
+.product,
+.name {
+    margin-bottom: 12px;
+}
+
+.TextCenter {
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.name,
+.price {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    margin: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1060px) {
+    .itemItem {
+        width: 30px;
+        height: 20px;
+        margin: 0 6px;
+        padding: 13px 79px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .margin {
+        margin: 0 1%;
+    }
+}
+
+/* responsive */
+/* nest hub max */
+@media screen and (max-width: 1280px) {
+    .itemItem {
+        width: 15%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .name {
+        font-size: 14px;
+    }
+}
+
+/* surface pro 7 */
+@media screen and (max-width: 912px) {
+    .itemItem {
+        width: 20px;
+        height: 20px;
+        margin: 0 6px;
+        padding: 10px 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .item {
+        margin: 0 1px;
+        cursor: pointer;
+        width: 49%;
+        transition: linear 0.2s;
+        text-decoration: none;
+        color: #333;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+}
+
+/* iphone 12 */
+@media screen and (max-width: 580px) {
+    .itemItem {
+        margin: 0 4px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        align-items: center;
+        cursor: pointer;
+        padding: 5px 34px;
+    }
+    .item {
+        margin: 0 1px;
+        cursor: pointer;
+        width: 49%;
+        transition: linear 0.2s;
+        text-decoration: none;
+        color: #333;
+        margin-bottom: 12px;
+    }
+
+    .TextCenter {
+        text-align: center;
+        padding: 40px 0 20px;
+        font-size: 18px;
+    }
+    .name {
+        font-size: 12px;
+    }
+    .price {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .itemItem {
+        margin: 0 4px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+        align-items: center;
+        cursor: pointer;
+        padding: 3px 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .itemItem {
+        margin: 0 4px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        align-items: center;
+        cursor: pointer;
+        padding: 2px 27px;
+    }
+}

@@ -1,0 +1,296 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 22px;
+}
+
+.lists {
+    padding: 0 28px;
+}
+
+.listss {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.itemAdd {
+    display: flex;
+    margin-bottom: 16px;
+    word-break: inherit;
+    align-items: center;
+}
+
+.svg {
+    width: 80px;
+    margin-right: 6px;
+}
+
+.text {
+    font-size: 14px;
+}
+.listss {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    width: 50%;
+}
+
+/*  */
+
+.Us {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
+.UsItem {
+    padding-bottom: 12px;
+}
+
+.underline {
+    height: 2px;
+    background-color: #000;
+    margin: 0 20% 20px;
+}
+
+.fullText {
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+/*  */
+
+.contactEmail {
+    display: flex;
+    height: 60px;
+    background-color: #000;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contactText {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.importtext {
+    position: relative;
+}
+
+.inputText {
+    padding: 10px;
+    width: 500px;
+    outline: none;
+}
+
+.submit {
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-weight: 700;
+    padding: 9px 40px;
+    margin: 2px;
+    background-color: #000;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+    .lists {
+        padding: 0 5px;
+    }
+    .logo {
+        width: 194px;
+        margin: 12px 0 22px 47px;
+    }
+    .contactText {
+        font-size: 18px;
+    }
+    .contactEmail {
+        margin-bottom: 22px;
+    }
+    .Us {
+        font-size: 15px;
+        font-weight: 700;
+        padding-bottom: 12px;
+    }
+    .UsItem {
+        padding-bottom: 10px;
+    }
+    .listss {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3%;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .lists {
+        padding: 0 5px;
+    }
+    .logo {
+        width: 194px;
+        margin: 12px 0 22px 47px;
+    }
+    .contactText {
+        font-size: 15px;
+    }
+    .contactEmail {
+        margin-bottom: 22px;
+    }
+    .Us {
+        font-size: 13px;
+        font-weight: 700;
+        padding-bottom: 12px;
+    }
+    .UsItem {
+        padding-bottom: 9px;
+    }
+}
+
+@media screen and (max-width: 962px) {
+    .contactText {
+        font-size: 12px;
+    }
+    .footer {
+        display: block;
+    }
+    /* .listss {
+        display: flex;
+        justify-content: space-evenly;
+    } */
+    .lists {
+        padding: 0 5px;
+    }
+    .logo {
+        width: 194px;
+        text-align: center;
+        display: flex;
+        margin: 0 auto 6px;
+    }
+}
+
+@media screen and (max-width: 862px) {
+    .contactEmail {
+        display: block;
+        height: 90px;
+        background-color: #000;
+        align-items: center;
+    }
+    .contactText {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .importtext {
+        display: flex;
+        width: 62%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 622px) {
+    .text {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .text {
+        font-size: 12px;
+    }
+    .svg {
+    }
+}
+
+/* iphone 12 */
+@media screen and (max-width: 462px) {
+    .contactText {
+        color: #fff;
+        font-size: 6px;
+        font-weight: 500;
+    }
+
+    .contactText {
+        color: #fff;
+        font-size: 12px;
+        padding: 7px 0;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .importtext {
+        text-align: center;
+        width: 62%;
+    }
+    .submit {
+        color: #fff;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        font-weight: 700;
+        padding: 9px 40px;
+        margin: 2px;
+        background-color: #000;
+        cursor: pointer;
+    }
+    .inputText {
+        padding: 10px;
+        width: 100%;
+        outline: none;
+    }
+
+    .contactEmail {
+        display: block;
+        height: 80px;
+        background-color: #000;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        margin: auto;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    .itemAdd {
+        display: flex;
+        margin-bottom: 16px;
+        word-break: inherit;
+        align-items: center;
+    }
+    .svg {
+        margin: 0 6px;
+    }
+    .itemAdd {
+        display: none;
+    }
+    .listss {
+        display: block;
+        text-align: center;
+    }
+    .Us {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .contactEmail {
+        display: block;
+        height: 96px;
+        background-color: #000;
+        align-items: center;
+    }
+}

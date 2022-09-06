@@ -1,0 +1,157 @@
+.infomation {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 12px;
+}
+
+.nameHome {
+    text-decoration: none;
+    color: #333;
+}
+
+.nameTag {
+    color: #333;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    margin: 0 30px 50px;
+}
+
+.img {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto 14px;
+}
+.pay {
+    margin-left: 20px;
+}
+
+.namePay {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.pricePay {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(192, 192, 192);
+    margin-bottom: 16px;
+}
+
+.contentUpdate {
+    margin-bottom: 16px;
+}
+
+.serviceProduct {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.paymentUnit {
+    display: flex;
+}
+
+.icon {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.ship {
+    font-size: 14px;
+}
+
+.paymentUnit:first-child {
+    padding-right: 20px;
+}
+
+.count {
+    font-size: 18px;
+    display: inline;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 2px 10px;
+}
+
+.up,
+.down {
+    cursor: pointer;
+}
+
+.value {
+    padding: 0 24px;
+}
+
+.addCart {
+    margin-top: 16px;
+    border: 1px solid rgb(84, 84, 84);
+    display: flex;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.addCart:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 0.25s linear;
+}
+
+/* responsive */
+/* nest hub max */
+@media screen and (max-width: 1280px) {
+}
+
+/* surface pro 7 */
+@media screen and (max-width: 730px) {
+    .detail {
+        display: block;
+        margin: 0 30px 50px;
+    }
+}
+/* iphone 12 */
+@media screen and (max-width: 462px) {
+    .img {
+        display: flex;
+        width: 50%;
+        height: 50%;
+        margin: 0 auto 14px;
+    }
+    .detail {
+        display: block;
+        margin-bottom: 50px;
+    }
+    .namePay,
+    .pricePay {
+        font-weight: 400;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .counts {
+        display: flex;
+        justify-content: center;
+    }
+    .addCart {
+        border: 1px solid rgb(84, 84, 84);
+        display: flex;
+        background-color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        margin: 16px auto 0;
+    }
+}

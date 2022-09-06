@@ -1,0 +1,136 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px 0;
+    align-items: center;
+}
+
+.header__itemSpace {
+    margin-right: 5px;
+}
+
+.header__logo {
+    width: 270px;
+    cursor: pointer;
+}
+
+.header__items {
+    display: flex;
+}
+
+.header__item {
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.header__icon {
+    padding: 10px;
+    cursor: pointer;
+    height: 30px;
+}
+
+.header__itemChildrens {
+    display: flex;
+    align-items: center;
+    width: auto;
+    transition: 2s;
+}
+
+.header__itemChildrenss {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    position: absolute;
+    transition: 5s linear;
+    width: 190px;
+    /* bottom: 36px; */
+    display: none;
+}
+
+.header__itemChildrenss::before {
+    display: block;
+    content: '';
+    width: 86px;
+    height: 37px;
+    position: absolute;
+    top: -10px;
+}
+
+.header__itemChildren {
+    padding: 8px 12px;
+}
+
+.header__item {
+    transition: 0.14s;
+}
+
+.header__item:hover .header__itemChildrenss {
+    display: block;
+}
+
+.header__itemChildren:hover {
+    transition: 0.14s;
+    color: rgb(169, 169, 169);
+}
+
+.count {
+    font-weight: 500;
+    position: relative;
+    color: #fff;
+    background-color: #000;
+    top: -16px;
+    right: -11px;
+    height: 16px;
+    width: 16px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.header__iconRes {
+    display: none;
+}
+/* responsive */
+/* nest hub max */
+@media screen and (max-width: 1280px) {
+    .header {
+        justify-content: space-around;
+        padding: 24px 100px;
+    }
+    .header__logo {
+        width: 220px;
+        cursor: pointer;
+    }
+}
+
+/* surface pro 7 */
+@media screen and (max-width: 912px) {
+    .header__logo {
+        width: 220px;
+    }
+    .header {
+        justify-content: space-around;
+        padding: 24px 0;
+    }
+    .header__items {
+        display: none;
+    }
+    .header__iconRes {
+        display: block;
+        position: relative;
+        bottom: -3px;
+    }
+}
+/* iphone 12 */
+@media screen and (max-width: 462px) {
+    .header__logo {
+        width: 150px;
+    }
+}
